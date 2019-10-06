@@ -1,0 +1,1009 @@
+{
+  "id": "3f06c99a-e98c-44d5-89ca-1b77960a4b41",
+  "version": "2.0",
+  "name": "BPB Test Automation",
+  "url": "https://bpbonline.com/",
+  "tests": [{
+    "id": "c9949d56-8d58-481d-8e71-f74b9a29e61e",
+    "name": "BPBTest",
+    "commands": [{
+      "id": "0fff82da-3116-4bf2-941d-c86707aefc01",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//body/div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ddb33ad-5fe9-47cc-8888-b6b8b661b007",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//body/div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f95ee46-5221-4a3e-987a-7d116a0a624f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.hover span",
+      "targets": [
+        ["css=.hover span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li/a/span", "xpath:position"]
+      ],
+      "value": "Home"
+    }, {
+      "id": "8d362e46-b6ba-4cfc-a90d-5c2d138385c2",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Data Structure & Algorithms",
+      "targets": [
+        ["linkText=Data Structure & Algorithms", "linkText"],
+        ["css=.hover:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Structure & Algorithms')])[2]", "xpath:link"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[3]/div/div/div[2]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/data-structure-algorithms')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div[2]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": "Data Structure & Algorithms"
+    }, {
+      "id": "2553de64-d8ee-458f-9ca3-91103ea31eb6",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Computer & IT Books | Emerging & Trending Technologies l E-books – BPB Publications",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72aee021-6392-47aa-afa3-11c86b9be28f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .dropdown-link > span",
+      "targets": [
+        ["css=.hover > .dropdown-link > span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d0d403b-a7a9-4bed-b878-afde7f02b410",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hover > .dropdown-link > span",
+      "targets": [
+        ["css=.hover > .dropdown-link > span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[6]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b58d56b-ce20-4a04-9f4f-c54026541d32",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hover > .dropdown-link > span",
+      "targets": [
+        ["css=.hover > .dropdown-link > span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[6]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d0c8f11-f19e-4ad7-8253-d8a785277b9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover span",
+      "targets": [
+        ["css=.hover span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[9]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "666c29d3-f76c-41cb-a723-d15f22f5c417",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.breadcrumb",
+      "targets": [
+        ["css=.breadcrumb", "css:finder"],
+        ["xpath=//div[@id='breadcrumb']/ul", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6cd32d5-aeaf-4e12-bdfc-e794ea8aef73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .dropdown-link > span",
+      "targets": [
+        ["css=.hover > .dropdown-link > span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47fdc829-ad08-475b-b1bd-7e3ef0272e54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=eBooks",
+      "targets": [
+        ["linkText=eBooks", "linkText"],
+        ["css=.hover > a", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://ulektz.com/p/BPB-Publications')])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4163bef2-7958-415a-85a4-095520336863",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mCSB_1_container > li:nth-child(3)",
+      "targets": [
+        ["css=#mCSB_1_container > li:nth-child(3)", "css:finder"],
+        ["xpath=//li[@onclick=\"loadUniversity('6','Information Technology ','2')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='mCSB_1_container']/li[3]", "xpath:idRelative"],
+        ["xpath=//div/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Information Technology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da4358a1-9d66-44e0-bced-d86982ddb0e3",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d265fbfc-3f9c-423e-acc4-414536253623",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ad1bf91-7c85-4a20-82d4-1b08e98e33db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.innerWrapper li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://ulektz.com/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "190afd85-74a0-44f5-aaa2-56e3992b7d24",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,519)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "012920ed-2d02-41fc-8b2d-52e945973bf5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.innerWrapper li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://ulektz.com/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a091ec3-7ef9-4e63-852f-c8e60a1d633b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Computer & IT Books | Emerging & Trending Technologies l E-books – BPB Publications",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3339aefe-00d6-4c70-9f9d-0bb54b56dedb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "15223c54-9692-4de1-a72c-2405db145b49",
+    "name": "BPBTA2",
+    "commands": [{
+      "id": "6919033d-15b4-431b-acde-5dfc6800a573",
+      "comment": "",
+      "command": "open",
+      "target": "https://bpbonline.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7ba2bce-eb2c-4b06-a7c0-048d2b446a12",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffea878f-54b3-48d0-bbbc-5db2776cded7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .expand",
+      "targets": [
+        ["css=.hover > .expand", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[3]/span", "xpath:idRelative"],
+        ["xpath=//li[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7f4b1a5-b8e3-4dc4-8bd8-49db5fe6685e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .expand",
+      "targets": [
+        ["css=.hover > .expand", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[3]/span", "xpath:idRelative"],
+        ["xpath=//li[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab2982e-c5d1-49d2-9d67-01944372f5a1",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Data Structure & Algorithms",
+      "targets": [
+        ["linkText=Data Structure & Algorithms", "linkText"],
+        ["css=.hover:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Structure & Algorithms')])[2]", "xpath:link"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[3]/div/div/div[2]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/data-structure-algorithms')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div[2]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": "Data Structure & Algorithms"
+    }, {
+      "id": "4e72e603-f41e-4025-97ae-5402d7ece3f3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Computer Books",
+      "targets": [
+        ["linkText=Computer Books", "linkText"],
+        ["css=.hover > .dropdown-link", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/computer-books')])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c4d3928-20c9-41f8-9b44-741390d3906a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Computer Books",
+      "targets": [
+        ["linkText=Computer Books", "linkText"],
+        ["css=.hover > .dropdown-link", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/computer-books')])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ce19e92-2939-4f61-95a2-4acaf19b0c70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover span",
+      "targets": [
+        ["css=.hover span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[11]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[11]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69b8a37f-2797-44dc-be76-d81de645690e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.col-md-3:nth-child(2) h4",
+      "targets": [
+        ["css=.col-md-3:nth-child(2) h4", "css:finder"],
+        ["xpath=//div[@id='catSearch']/div/div/div/div[2]/div/a[2]/h4", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a[2]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Cloud Computing -Master Cloud Computing Concepts Architecture and Applications with Real-world examples and case studies')]", "xpath:innerText"]
+      ],
+      "value": "Cloud Computing -Master Cloud Computing Concepts Architecture and Applications with Real-world examples and case studies"
+    }, {
+      "id": "a3bde0b1-d4bc-4653-9213-3c73f031ca5f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-md-3:nth-child(1) h4",
+      "targets": [
+        ["css=.col-md-3:nth-child(1) h4", "css:finder"],
+        ["xpath=//div[@id='catSearch']/div/div/div/div/div/a[2]/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'SharePoint Online Modern Experience Practical Guide: Learn step by step how to use SharePoint Online Modern Experience ')]", "xpath:innerText"]
+      ],
+      "value": "SharePoint Online Modern Experience Practical Guide: Learn step by step how to use SharePoint Online Modern Experience "
+    }, {
+      "id": "3d05f4bc-64db-4c6d-aa83-de45d6670a34",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mCSB_1_container > li:nth-child(3)",
+      "targets": [
+        ["css=#mCSB_1_container > li:nth-child(3)", "css:finder"],
+        ["xpath=//li[@onclick=\"loadUniversity('6','Information Technology ','2')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='mCSB_1_container']/li[3]", "xpath:idRelative"],
+        ["xpath=//div/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Information Technology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61f007c6-4dde-402f-9c7e-baa99a5d0965",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#mCSB_1_container > li:nth-child(3)",
+      "targets": [
+        ["css=#mCSB_1_container > li:nth-child(3)", "css:finder"],
+        ["xpath=//li[@onclick=\"loadUniversity('6','Information Technology ','2')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='mCSB_1_container']/li[3]", "xpath:idRelative"],
+        ["xpath=//div/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Information Technology')]", "xpath:innerText"]
+      ],
+      "value": "ListofBooks"
+    }, {
+      "id": "bf33f3ac-3f7c-499c-b411-6145bc0057f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mCSB_1_container > li:nth-child(1)",
+      "targets": [
+        ["css=#mCSB_1_container > li:nth-child(1)", "css:finder"],
+        ["xpath=//li[@onclick=\"loadUniversity(0,'All','25')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='mCSB_1_container']/li", "xpath:idRelative"],
+        ["xpath=//div/li", "xpath:position"],
+        ["xpath=//li[contains(.,' ALL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bca7f15-0e48-46b2-bb9e-661eae07f6b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Skills",
+      "targets": [
+        ["linkText=Skills", "linkText"],
+        ["css=.innerWrapper > ul > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Skills')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://ulektz.com/skills')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Skills')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8a89c3b-bd68-47af-9ea6-a4be6c850151",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Management Team",
+      "targets": [
+        ["linkText=Management Team", "linkText"],
+        ["css=.col-md-3:nth-child(3) > .innerfot_p:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Management Team')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'home/management')]", "xpath:href"],
+        ["xpath=//div[3]/p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Management Team')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0d3d4c3-1928-404c-bd1a-df3353c7caec",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://ulektz.com/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ebbcf8e-1232-4953-90d0-54f11aa2f0b1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://ulektz.com/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "81ce8cb9-311a-4436-9cc9-b0d8d30ecdc3",
+    "name": "BPB Online Test Cases",
+    "commands": [{
+      "id": "7097268c-487c-4777-b58c-94baf8005107",
+      "comment": "",
+      "command": "open",
+      "target": "https://bpbonline.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d290ca2-fe89-44ab-9c4a-021e165aa541",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15621aca-fc0b-46e8-b39e-a53b4c055de0",
+      "comment": "",
+      "command": "click",
+      "target": "id=bc-product-search",
+      "targets": [
+        ["id=bc-product-search", "id"],
+        ["name=q", "name"],
+        ["css=#bc-product-search", "css:finder"],
+        ["xpath=//input[@id='bc-product-search']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f4c55a0-bcd9-4750-806f-860b1abd5dfb",
+      "comment": "",
+      "command": "click",
+      "target": "id=bc-product-search",
+      "targets": [
+        ["id=bc-product-search", "id"],
+        ["name=q", "name"],
+        ["css=#bc-product-search", "css:finder"],
+        ["xpath=//input[@id='bc-product-search']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d02b01b-d3b8-4911-95f2-53a408aacd4e",
+      "comment": "",
+      "command": "type",
+      "target": "id=bc-product-search",
+      "targets": [
+        ["id=bc-product-search", "id"],
+        ["name=q", "name"],
+        ["css=#bc-product-search", "css:finder"],
+        ["xpath=//input[@id='bc-product-search']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "7d2d776e-3deb-4dd1-b641-09c36729e901",
+      "comment": "",
+      "command": "click",
+      "target": "id=search",
+      "targets": [
+        ["id=search", "id"],
+        ["css=#search", "css:finder"],
+        ["xpath=//form[@id='search']", "xpath:attributes"],
+        ["xpath=//div[@id='page-body']/header/div[2]/div/div/div/div/div[2]/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"],
+        ["xpath=//form[contains(.,'0 results are available, use up and down arrow keys to navigate.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "098d1bb6-1081-4144-adee-08d2ae4db151",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Computer & IT Books | Emerging & Trending Technologies l E-books – BPB Publications",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc24fa23-1c7d-465e-8fc7-273e73905e68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tt-cursor .text-search-sn-search-shopify",
+      "targets": [
+        ["css=.tt-cursor .text-search-sn-search-shopify", "css:finder"],
+        ["xpath=//a/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb3a60fb-8b0f-499a-b75b-f20dd8c216b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=bc-product-search",
+      "targets": [
+        ["id=bc-product-search", "id"],
+        ["name=q", "name"],
+        ["css=#bc-product-search", "css:finder"],
+        ["xpath=//input[@id='bc-product-search']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "C Under DOS Test by Riku Parikh, Anup Jalan, Soham Desai"
+    }, {
+      "id": "d1b1a51f-87e9-48d8-a4d2-3eaaf34a29dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active:nth-child(4) > .dropdown-link > span",
+      "targets": [
+        ["css=.active:nth-child(4) > .dropdown-link > span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e0f0dd-c898-4a97-a197-7d1c37a5498a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=span > strong",
+      "targets": [
+        ["css=span > strong", "css:finder"],
+        ["xpath=//div[@id='tabs-description']/h3/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Description:')]", "xpath:innerText"]
+      ],
+      "value": "Description:"
+    }, {
+      "id": "ba9e1ae5-3ee2-4fd7-8ce8-2d026cea076d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover:nth-child(5) > a",
+      "targets": [
+        ["css=.hover:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Hardware')])[6]", "xpath:link"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[4]/div/div/div[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/hardware-hindi')])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[4]/div/div/div[2]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29cfb087-7e9a-42de-9bd7-050272a9a957",
+      "comment": "",
+      "command": "click",
+      "target": "id=bc-product-search",
+      "targets": [
+        ["id=bc-product-search", "id"],
+        ["name=q", "name"],
+        ["css=#bc-product-search", "css:finder"],
+        ["xpath=//input[@id='bc-product-search']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd95fadb-a139-4cae-a883-758a3abb0ba2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover span",
+      "targets": [
+        ["css=.hover span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea497a02-f4b2-40f8-9cc1-74680661d554",
+      "comment": "",
+      "command": "click",
+      "target": "id=bc-product-search",
+      "targets": [
+        ["id=bc-product-search", "id"],
+        ["name=q", "name"],
+        ["css=#bc-product-search", "css:finder"],
+        ["xpath=//input[@id='bc-product-search']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "794a4291-40bf-410b-8008-b1a8fc06dc2f",
+      "comment": "",
+      "command": "type",
+      "target": "id=bc-product-search",
+      "targets": [
+        ["id=bc-product-search", "id"],
+        ["name=q", "name"],
+        ["css=#bc-product-search", "css:finder"],
+        ["xpath=//input[@id='bc-product-search']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "artif"
+    }, {
+      "id": "0ae49f03-00fc-470f-a66b-137b1fe9f1a5",
+      "comment": "",
+      "command": "click",
+      "target": "id=bc-product-search",
+      "targets": [
+        ["id=bc-product-search", "id"],
+        ["name=q", "name"],
+        ["css=#bc-product-search", "css:finder"],
+        ["xpath=//input[@id='bc-product-search']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c004c8dc-5e3c-419c-aba0-335eb93a97cf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tt-cursor .content-lineal-sn-search-shopify",
+      "targets": [
+        ["css=.tt-cursor .content-lineal-sn-search-shopify", "css:finder"],
+        ["xpath=//a/div/div", "xpath:position"]
+      ],
+      "value": "Artificial Intelligence"
+    }, {
+      "id": "1e9a7fa4-aadb-4dc5-b417-987cef1fbfb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tt-cursor .tt-highlight",
+      "targets": [
+        ["css=.tt-cursor .tt-highlight", "css:finder"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Artificial Intelligence')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "222f55ba-a5b7-4a3d-8e18-373b13bda66c",
+      "comment": "",
+      "command": "type",
+      "target": "id=bc-product-search",
+      "targets": [
+        ["id=bc-product-search", "id"],
+        ["name=q", "name"],
+        ["css=#bc-product-search", "css:finder"],
+        ["xpath=//input[@id='bc-product-search']", "xpath:attributes"],
+        ["xpath=//form[@id='search']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "Artificial Intelligence"
+    }, {
+      "id": "29b04fe6-db08-427c-8ee0-f9ed327df838",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid",
+      "targets": [
+        ["css=.grid", "css:finder"],
+        ["xpath=//div[@id='col-main']/div/div/div[2]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Grid')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fad74e6e-7852-4544-9793-fbd583d32a90",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-grid-item:nth-child(2) .featured-image",
+      "targets": [
+        ["css=.product-grid-item:nth-child(2) .featured-image", "css:finder"],
+        ["xpath=//img[@alt='AI & ML - Powering the Agents of Automation']", "xpath:img"],
+        ["xpath=//div[@id='col-main']/div[2]/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1d45781-d7f1-47d6-8654-a82dae81a268",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid-item:nth-child(2) .featured-image",
+      "targets": [
+        ["css=.product-grid-item:nth-child(2) .featured-image", "css:finder"],
+        ["xpath=//img[@alt='AI & ML - Powering the Agents of Automation']", "xpath:img"],
+        ["xpath=//div[@id='col-main']/div[2]/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1982ba7e-37b5-4691-a586-81c742422b24",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "AI & ML - Powering the Agents of Automation – BPB Publications",
+      "targets": [],
+      "value": "AIBook"
+    }, {
+      "id": "8c1a9d55-8c9a-4bb8-9113-2d0055e7c366",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-to-cart",
+      "targets": [
+        ["id=add-to-cart", "id"],
+        ["css=.action-button > #add-to-cart", "css:finder"],
+        ["xpath=//button[@id='add-to-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product-action-3829435007020']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47176600-7f13-43f5-8546-4c85985c7071",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action > .btn-default",
+      "targets": [
+        ["css=.action > .btn-default", "css:finder"],
+        ["xpath=//button[@onclick=\"window.location='/checkout'\"]", "xpath:attributes"],
+        ["xpath=//div[@id='cart-content']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "502a5967-3f0d-4d44-bc1c-071d9a360a2f",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=checkout_email_or_phone",
+      "targets": [
+        ["id=checkout_email_or_phone", "id"],
+        ["css=#checkout_email_or_phone", "css:finder"],
+        ["xpath=//input[@id='checkout_email_or_phone']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "407.15625,24.015625"
+    }, {
+      "id": "f9265686-4d9e-40fb-b1af-cff80c88b37f",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=checkout_email_or_phone",
+      "targets": [
+        ["id=checkout_email_or_phone", "id"],
+        ["css=#checkout_email_or_phone", "css:finder"],
+        ["xpath=//input[@id='checkout_email_or_phone']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "407.15625,24.015625"
+    }, {
+      "id": "6a824962-a645-41b2-a534-b86411264ecc",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=checkout_email_or_phone",
+      "targets": [
+        ["id=checkout_email_or_phone", "id"],
+        ["css=#checkout_email_or_phone", "css:finder"],
+        ["xpath=//input[@id='checkout_email_or_phone']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "407.15625,24.015625"
+    }, {
+      "id": "973d0d75-695c-443e-af24-cfbead5e23b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkout_email_or_phone",
+      "targets": [
+        ["id=checkout_email_or_phone", "id"],
+        ["css=#checkout_email_or_phone", "css:finder"],
+        ["xpath=//input[@id='checkout_email_or_phone']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1bf6ee5-3cb3-4d1d-9941-31b9e2cce75a",
+      "comment": "",
+      "command": "type",
+      "target": "id=checkout_email_or_phone",
+      "targets": [
+        ["id=checkout_email_or_phone", "id"],
+        ["css=#checkout_email_or_phone", "css:finder"],
+        ["xpath=//input[@id='checkout_email_or_phone']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "abc@def.com"
+    }, {
+      "id": "3433acef-3b7d-4751-aefb-09d3fd6e730c",
+      "comment": "",
+      "command": "type",
+      "target": "name=checkout[shipping_address][first_name]",
+      "targets": [
+        ["name=checkout[shipping_address][first_name]", "name"],
+        ["css=div:nth-child(1) > .visually-hidden:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='checkout[shipping_address][first_name]']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "05b9cbb1-eb70-44e0-8b5e-7c3d6eccc01b",
+      "comment": "",
+      "command": "type",
+      "target": "name=checkout[shipping_address][last_name]",
+      "targets": [
+        ["name=checkout[shipping_address][last_name]", "name"],
+        ["css=.fieldset .visually-hidden:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='checkout[shipping_address][last_name]']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input[2]", "xpath:position"]
+      ],
+      "value": "User"
+    }, {
+      "id": "fbce833f-38b8-4a6d-a5d1-6fbae6973dfa",
+      "comment": "",
+      "command": "type",
+      "target": "name=checkout[shipping_address][address1]",
+      "targets": [
+        ["name=checkout[shipping_address][address1]", "name"],
+        ["css=div:nth-child(1) > .visually-hidden:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='checkout[shipping_address][address1]']", "xpath:attributes"],
+        ["xpath=//div/input[3]", "xpath:position"]
+      ],
+      "value": "12345, Sixth Street"
+    }, {
+      "id": "cb798d4e-f18e-4759-adb2-d71b550ac4f1",
+      "comment": "",
+      "command": "type",
+      "target": "name=checkout[shipping_address][address2]",
+      "targets": [
+        ["name=checkout[shipping_address][address2]", "name"],
+        ["css=div:nth-child(1) > .visually-hidden:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='checkout[shipping_address][address2]']", "xpath:attributes"],
+        ["xpath=//div/input[4]", "xpath:position"]
+      ],
+      "value": "Seventh Avenue"
+    }, {
+      "id": "f2662ba7-676f-46df-bf6f-103cafc97616",
+      "comment": "",
+      "command": "type",
+      "target": "name=checkout[shipping_address][city]",
+      "targets": [
+        ["name=checkout[shipping_address][city]", "name"],
+        ["css=div:nth-child(1) > .visually-hidden:nth-child(5)", "css:finder"],
+        ["xpath=//input[@name='checkout[shipping_address][city]']", "xpath:attributes"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "Denver"
+    }, {
+      "id": "8189a4ff-f71b-4d7c-83d0-d53fed660e02",
+      "comment": "",
+      "command": "type",
+      "target": "name=checkout[shipping_address][country]",
+      "targets": [
+        ["name=checkout[shipping_address][country]", "name"],
+        ["css=div:nth-child(1) > .visually-hidden:nth-child(6)", "css:finder"],
+        ["xpath=//input[@name='checkout[shipping_address][country]']", "xpath:attributes"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "US"
+    }, {
+      "id": "d9895591-979f-4de8-a160-bf4a98bf6e04",
+      "comment": "",
+      "command": "type",
+      "target": "name=checkout[shipping_address][province]",
+      "targets": [
+        ["name=checkout[shipping_address][province]", "name"],
+        ["css=.visually-hidden:nth-child(7)", "css:finder"],
+        ["xpath=//input[@name='checkout[shipping_address][province]']", "xpath:attributes"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": "Colorado"
+    }, {
+      "id": "c1c8339c-ebee-4c60-90cd-3d5d64e688c6",
+      "comment": "",
+      "command": "type",
+      "target": "name=checkout[shipping_address][zip]",
+      "targets": [
+        ["name=checkout[shipping_address][zip]", "name"],
+        ["css=.visually-hidden:nth-child(8)", "css:finder"],
+        ["xpath=//input[@name='checkout[shipping_address][zip]']", "xpath:attributes"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": "80201"
+    }, {
+      "id": "b4d90317-7610-44d8-8e11-a203c59290c7",
+      "comment": "",
+      "command": "type",
+      "target": "name=checkout[shipping_address][phone]",
+      "targets": [
+        ["name=checkout[shipping_address][phone]", "name"],
+        ["css=div > .visually-hidden:nth-child(9)", "css:finder"],
+        ["xpath=//input[@name='checkout[shipping_address][phone]']", "xpath:attributes"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "9876543241"
+    }, {
+      "id": "92342088-798d-4bff-9296-cb4bf521cf53",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkout_remember_me",
+      "targets": [
+        ["id=checkout_remember_me", "id"],
+        ["css=#checkout_remember_me", "css:finder"],
+        ["xpath=//input[@id='checkout_remember_me']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/div/div/input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b052a615-277a-430a-8800-1591225b2ac6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-svg--size-18",
+      "targets": [
+        ["css=.icon-svg--size-18", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e87ac69-2324-441b-88bb-b0c147f1b6f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn__content",
+      "targets": [
+        ["css=.btn__content", "css:finder"],
+        ["xpath=//button[@id='continue_button']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Continue to payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eba04fe-cbc1-4a17-8ac3-08d7eb81b355",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio-wrapper:nth-child(2) > .radio__label",
+      "targets": [
+        ["css=.radio-wrapper:nth-child(2) > .radio__label", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Same as shipping address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d7dd6b-6e29-4125-a562-9fd9a694bc8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shown-if-js > #continue_button > .icon-svg",
+      "targets": [
+        ["css=.shown-if-js > #continue_button > .icon-svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7c16fb3-2d22-4b99-ada8-b75eaf6c3214",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd93cbfd-0fdf-44b1-8c3d-193814dce681",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Razorpay Checkout",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9fd2c87-8da4-4d41-b132-1d7b1cd671d1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "01f785cc-a4ad-4d3b-b104-28de4fc06a1f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c9949d56-8d58-481d-8e71-f74b9a29e61e"]
+  }, {
+    "id": "fc15e620-d9d9-4b9a-9f2f-691e9054eba6",
+    "name": "BPB2",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "1033f797-ec8f-4852-98e5-20eded402b14",
+    "name": "BPBTA2",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}

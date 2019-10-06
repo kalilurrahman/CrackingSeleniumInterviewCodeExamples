@@ -1,0 +1,295 @@
+{
+  "id": "21fb9afe-2174-48a2-a7aa-17e096ffd551",
+  "version": "2.0",
+  "name": "Google Tests",
+  "url": "google.com",
+  "tests": [{
+    "id": "5bfb8a3a-0d87-4b78-a89c-8eaa68df75aa",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "88363d7d-3770-4429-88cb-84d9bd312823",
+    "name": "Test_1",
+    "commands": [{
+      "id": "3a38a4da-bec8-4551-acdf-cb42cc2aa477",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f12da4b8-d0c5-440c-970a-b89595d3fbb7",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "testing"
+    }, {
+      "id": "3988eec7-4d91-4e17-af12-22ea5ba315a0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f196cdc4-bd78-4ba3-a006-3c021e5c8181",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=uid_1",
+      "targets": [
+        ["id=uid_1", "id"],
+        ["css=#uid_1", "css:finder"],
+        ["xpath=//img[contains(@src,'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAEgASAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABAIDBQEHBv/EAEAQAAIBAwEDCAYHBQkAAAAAAAECAwAEESEFEjETFUFRcYGS0RQiYaGxwQYjU1VikdIzcsLw8iQlNDVCRVKCov/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgQD/8QAHREBAAICAgMAAAAAAAAAAAAAAAEREhMhQQIDUf/aAAwDAQACEQMRAD8A9BktnjkdDti8yrFTp1f96lb2ctxKI49sXe8ev+uqdjXr7Q2vtyxwiXMcr8g6gqQocg69fCrnuja/S63sopElT0Xekcr65YAjJI0ycZ4VzR7pq+nnnxaYsSy7w+kEpGnSdM9fraVw2QHH6RSeI/qrREynA9Hfh7fOrPTmVcCFyMY4VvYuTMOz2Gc/SCbhnieHirsWzXmbdh2/K7ccKSf4q0jfsOETnuoF+3DknA/dpsMifMd3983Pv/VRzHd/fNz7/wBVOrfMxAWF+8Y+dT9Jl+xP5jzq7DJn8x3f3zc+/wDVRWkk8jNho93tx50VY81yW+hWtpy9zbW0MU7gl5ERQznjqenXrrKtEs7eV7g7OtzOxLcpHHEja8TneOc5rduBmBwP+JpW3NwrIHA3VGD6wOfnW8Y+LUJbkk0QaKNYHzwkQNp3H512OCYPl2gZNdBFg/nn5VO6tobpAs8ZZQcgZI+HbULextrYuYYSu+ct6xOffUrkpdya/ZpSEonDMqSxD1iFBtGOOrUHXtp8RoCCEIxWZPHHyrsZbdW3idcDpq1C0dE0J05I8M/s26e6uxSRSnCxYP4o2X4ilVgtF3d6VVYYOm4Ojs/nNMp6FId1I4WJ0wFB4fyKVAvWOMgEIv5UVNQAoAGAOAHRRSoFd0oa3kUqGypG6RnOnCstLFSQBCiEHIZkTQjPV3Vp3gLWsyqSCUIGOzsPwNZFvaySP9Wx0GcnI+K61RpzRSNCqw3bREHV8BifZrVcUF0kweTaRdMH1OTUe+rZfSo4VEAWeTOpkO7p3CqGl2mAd21tyej60+VYmrSTYzkfW59mBrWbIx5WXVgQ5xo+MZ7K0YWnMaGaNVcqN8K2cHprPlnflpFWQjDMABIvHvetqr3n1Db+cjVd/jjs99PWqaJI0o1GqnPzpZJpJZOTWQsSeKuvDr0bhTEEM7j655EAPDe1PDqJ0oHaKBRQU3gLWsyrxKHGmejsPwNZts8kXC1VmJP1nrKevGiVoXcgVN1lyHBB9ZR8aSjm5NVw7AYzu8rHjj7KBuW6SOFZDFO2TjCRsSO7jiu29ws8SyCKdAeh1II7qmbiIaGaMEcQWGlHLx4zy0eP3hU7HQwJHqyd+aWkuysjKImOGI/18PDTHLxfbR/mKqIs2Yt/ZyTnXC51qio3bBv2JwNWOX0/81MXL5AMLYzqRvnTw1Lds9P8Pw00HDHlUkkt4xiOSFAdcAgUDA4V2oJIj6I6sRxwaKD59tsbTbjsafuLj5VEbU2iDnme58cnlRRQA2ptIf7Pc+OTyo502jgjme51/HJ5UUUBzrtLX+57nX8cnlRzrtLGOZ7nxyeVFFB07W2kR/k9x4n8qOdtpfc9x438q5RQA2rtIHPM9zn2vJ5UUUUH/9k=')]", "xpath:img"],
+        ["xpath=//img[@id='uid_1']", "xpath:attributes"],
+        ["xpath=//div[@id='rhs_block']/div/div/div/div/div[2]/div[3]/div/a/div/div/div/g-img/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div/div/g-img/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbe9de01-e7d3-4ca4-8f40-a72e96fb2f05",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=uid_1",
+      "targets": [
+        ["id=uid_1", "id"],
+        ["css=#uid_1", "css:finder"],
+        ["xpath=//img[contains(@src,'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAEgASAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABAIDBQEHBv/EAEAQAAIBAwEDCAYHBQkAAAAAAAECAwAEESEFEjETFUFRcYGS0RQiYaGxwQYjU1VikdIzcsLw8iQlNDVCRVKCov/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgQD/8QAHREBAAICAgMAAAAAAAAAAAAAAAEREhMhQQIDUf/aAAwDAQACEQMRAD8A9BktnjkdDti8yrFTp1f96lb2ctxKI49sXe8ev+uqdjXr7Q2vtyxwiXMcr8g6gqQocg69fCrnuja/S63sopElT0Xekcr65YAjJI0ycZ4VzR7pq+nnnxaYsSy7w+kEpGnSdM9fraVw2QHH6RSeI/qrREynA9Hfh7fOrPTmVcCFyMY4VvYuTMOz2Gc/SCbhnieHirsWzXmbdh2/K7ccKSf4q0jfsOETnuoF+3DknA/dpsMifMd3983Pv/VRzHd/fNz7/wBVOrfMxAWF+8Y+dT9Jl+xP5jzq7DJn8x3f3zc+/wDVRWkk8jNho93tx50VY81yW+hWtpy9zbW0MU7gl5ERQznjqenXrrKtEs7eV7g7OtzOxLcpHHEja8TneOc5rduBmBwP+JpW3NwrIHA3VGD6wOfnW8Y+LUJbkk0QaKNYHzwkQNp3H512OCYPl2gZNdBFg/nn5VO6tobpAs8ZZQcgZI+HbULextrYuYYSu+ct6xOffUrkpdya/ZpSEonDMqSxD1iFBtGOOrUHXtp8RoCCEIxWZPHHyrsZbdW3idcDpq1C0dE0J05I8M/s26e6uxSRSnCxYP4o2X4ilVgtF3d6VVYYOm4Ojs/nNMp6FId1I4WJ0wFB4fyKVAvWOMgEIv5UVNQAoAGAOAHRRSoFd0oa3kUqGypG6RnOnCstLFSQBCiEHIZkTQjPV3Vp3gLWsyqSCUIGOzsPwNZFvaySP9Wx0GcnI+K61RpzRSNCqw3bREHV8BifZrVcUF0kweTaRdMH1OTUe+rZfSo4VEAWeTOpkO7p3CqGl2mAd21tyej60+VYmrSTYzkfW59mBrWbIx5WXVgQ5xo+MZ7K0YWnMaGaNVcqN8K2cHprPlnflpFWQjDMABIvHvetqr3n1Db+cjVd/jjs99PWqaJI0o1GqnPzpZJpJZOTWQsSeKuvDr0bhTEEM7j655EAPDe1PDqJ0oHaKBRQU3gLWsyrxKHGmejsPwNZts8kXC1VmJP1nrKevGiVoXcgVN1lyHBB9ZR8aSjm5NVw7AYzu8rHjj7KBuW6SOFZDFO2TjCRsSO7jiu29ws8SyCKdAeh1II7qmbiIaGaMEcQWGlHLx4zy0eP3hU7HQwJHqyd+aWkuysjKImOGI/18PDTHLxfbR/mKqIs2Yt/ZyTnXC51qio3bBv2JwNWOX0/81MXL5AMLYzqRvnTw1Lds9P8Pw00HDHlUkkt4xiOSFAdcAgUDA4V2oJIj6I6sRxwaKD59tsbTbjsafuLj5VEbU2iDnme58cnlRRQA2ptIf7Pc+OTyo502jgjme51/HJ5UUUBzrtLX+57nX8cnlRzrtLGOZ7nxyeVFFB07W2kR/k9x4n8qOdtpfc9x438q5RQA2rtIHPM9zn2vJ5UUUUH/9k=')]", "xpath:img"],
+        ["xpath=//img[@id='uid_1']", "xpath:attributes"],
+        ["xpath=//div[@id='rhs_block']/div/div/div/div/div[2]/div[3]/div/a/div/div/div/g-img/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a/div/div/div/g-img/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56478dd0-b2ec-4917-b3ce-a9951a7ee255",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.NFQFxe:nth-child(2) .izHQgf",
+      "targets": [
+        ["css=.NFQFxe:nth-child(2) .izHQgf", "css:finder"],
+        ["xpath=//div[@id='rhs_block']/div/div/div/div/div[2]/div[2]/div/a/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "914bfd8c-3497-446a-8a3a-18f987f7b947",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.NFQFxe:nth-child(2) .izHQgf",
+      "targets": [
+        ["css=.NFQFxe:nth-child(2) .izHQgf", "css:finder"],
+        ["xpath=//div[@id='rhs_block']/div/div/div/div/div[2]/div[2]/div/a/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a164103f-de44-4f7c-86c3-43c4104f5131",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NFQFxe:nth-child(2) .RJn8N",
+      "targets": [
+        ["css=.NFQFxe:nth-child(2) .RJn8N", "css:finder"],
+        ["xpath=//div[@id='rhs_block']/div/div/div/div/div[2]/div[2]/div/a/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbae87f5-0e7d-4a85-ae01-2f2fe08903b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wikipedia",
+      "targets": [
+        ["linkText=Wikipedia", "linkText"],
+        ["css=.ruhjFe", "css:finder"],
+        ["xpath=//a[contains(text(),'Wikipedia')]", "xpath:link"],
+        ["xpath=//div[@id='rhs_block']/div/div/div/div/div[2]/div[2]/div/div/div/div/div/div/span[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://en.wikipedia.org/wiki/Software_testing')])[8]", "xpath:href"],
+        ["xpath=//div/span[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9463",
+      "windowTimeout": 2000
+    }, {
+      "id": "8824fbc6-fcbd-4991-8f11-ef7b76a62167",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6db76b3-ba49-453f-a26b-d702873f36be",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9463}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35f61365-4726-488f-8095-cfa7407a4c2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tocsection-45 > a > .toctext",
+      "targets": [
+        ["css=.tocsection-45 > a > .toctext", "css:finder"],
+        ["xpath=//div[@id='toc']/ul/li[7]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[7]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Automated testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d00afd4-6c45-4ac1-8d57-a5269bd2f95f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Test automation",
+      "targets": [
+        ["linkText=Test automation", "linkText"],
+        ["css=.hatnote:nth-child(170) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Test automation')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/div[27]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Test_automation')])[2]", "xpath:href"],
+        ["xpath=//div[27]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Test automation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebb6642a-8a23-4221-9e0a-e4ed4f8ee8f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tocsection-5 .toctext",
+      "targets": [
+        ["css=.tocsection-5 .toctext", "css:finder"],
+        ["xpath=//div[@id='toc']/ul/li[4]/ul/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/ul/li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Test automation interface')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1d9f649-ecb4-4f2c-bc4a-397429d775b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thumbimage",
+      "targets": [
+        ["css=.thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[5]/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e99f8dbb-6abb-4b30-8173-4f2efb5307f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.thumbimage",
+      "targets": [
+        ["css=.thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[5]/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87393f75-56d6-471a-a25c-09949f8369a4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90cc2648-73e5-4de0-81b9-780fdda604da",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.thumbimage",
+      "targets": [
+        ["css=.thumbimage", "css:finder"],
+        ["xpath=//div[@id='mw-content-text']/div/div[5]/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff6fe2ef-aa7c-4639-9d85-9b5e46ffa914",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mw-mmv-final-image",
+      "targets": [
+        ["css=.mw-mmv-final-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://upload.wikimedia.org/wikipedia/commons/8/89/Test_Automation_Interface.png')]", "xpath:img"],
+        ["xpath=//div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad5b21a1-e579-455b-beb2-583d1532e407",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3df83aee-87cd-47b2-8589-53b74a8dfe8f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86da777d-f1fd-4168-a88e-8ab1451a657b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e1c6a0f-9865-49df-9802-5cd71d7f8317",
+      "comment": "Test Google Title in Google Home Page",
+      "command": "assertTitle",
+      "target": "title",
+      "targets": [],
+      "value": "Google"
+    }, {
+      "id": "3a884d34-b310-4f44-a4ef-59bb79fe13af",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "xpath=//html[contains(.,'Preparing to run your test')]",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"],
+        ["xpath=//html[contains(.,'Preparing to run your test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0c304021-3b11-4511-b746-a41946eda320",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5bfb8a3a-0d87-4b78-a89c-8eaa68df75aa"]
+  }, {
+    "id": "a7de8da3-d55c-4639-8ad9-69f7ed5a0030",
+    "name": "Google Tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["88363d7d-3770-4429-88cb-84d9bd312823"]
+  }],
+  "urls": [],
+  "plugins": []
+}

@@ -1,0 +1,188 @@
+{
+  "id": "3f06c99a-e98c-44d5-89ca-1b77960a4b41",
+  "version": "2.0",
+  "name": "BPB Test Automation",
+  "url": "https://bpbonline.com/",
+  "tests": [{
+    "id": "c9949d56-8d58-481d-8e71-f74b9a29e61e",
+    "name": "BPBTest",
+    "commands": [{
+      "id": "0fff82da-3116-4bf2-941d-c86707aefc01",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//body/div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ddb33ad-5fe9-47cc-8888-b6b8b661b007",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fancybox-item",
+      "targets": [
+        ["css=.fancybox-item", "css:finder"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[7]", "xpath:href"],
+        ["xpath=//body/div[5]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f95ee46-5221-4a3e-987a-7d116a0a624f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.hover span",
+      "targets": [
+        ["css=.hover span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li/a/span", "xpath:position"]
+      ],
+      "value": "Home"
+    }, {
+      "id": "8d362e46-b6ba-4cfc-a90d-5c2d138385c2",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Data Structure & Algorithms",
+      "targets": [
+        ["linkText=Data Structure & Algorithms", "linkText"],
+        ["css=.hover:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Data Structure & Algorithms')])[2]", "xpath:link"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[3]/div/div/div[2]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/collections/data-structure-algorithms')])[2]", "xpath:href"],
+        ["xpath=//li[3]/div/div/div[2]/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": "Data Structure & Algorithms"
+    }, {
+      "id": "2553de64-d8ee-458f-9ca3-91103ea31eb6",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Computer & IT Books | Emerging & Trending Technologies l E-books – BPB Publications",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72aee021-6392-47aa-afa3-11c86b9be28f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .dropdown-link > span",
+      "targets": [
+        ["css=.hover > .dropdown-link > span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d0d403b-a7a9-4bed-b878-afde7f02b410",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hover > .dropdown-link > span",
+      "targets": [
+        ["css=.hover > .dropdown-link > span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[6]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b58d56b-ce20-4a04-9f4f-c54026541d32",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hover > .dropdown-link > span",
+      "targets": [
+        ["css=.hover > .dropdown-link > span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[6]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d0c8f11-f19e-4ad7-8253-d8a785277b9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover span",
+      "targets": [
+        ["css=.hover span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[9]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[9]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "666c29d3-f76c-41cb-a723-d15f22f5c417",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.breadcrumb",
+      "targets": [
+        ["css=.breadcrumb", "css:finder"],
+        ["xpath=//div[@id='breadcrumb']/ul", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6cd32d5-aeaf-4e12-bdfc-e794ea8aef73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > .dropdown-link > span",
+      "targets": [
+        ["css=.hover > .dropdown-link > span", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/div/ul/li[4]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47fdc829-ad08-475b-b1bd-7e3ef0272e54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=eBooks",
+      "targets": [
+        ["linkText=eBooks", "linkText"],
+        ["css=.hover > a", "css:finder"],
+        ["xpath=//div[@id='page-body']/header/div[3]/div/div/div/div/nav/div/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://ulektz.com/p/BPB-Publications')])[2]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4163bef2-7958-415a-85a4-095520336863",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mCSB_1_container > li:nth-child(3)",
+      "targets": [
+        ["css=#mCSB_1_container > li:nth-child(3)", "css:finder"],
+        ["xpath=//li[@onclick=\"loadUniversity('6','Information Technology ','2')\"]", "xpath:attributes"],
+        ["xpath=//div[@id='mCSB_1_container']/li[3]", "xpath:idRelative"],
+        ["xpath=//div/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Information Technology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da4358a1-9d66-44e0-bced-d86982ddb0e3",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d265fbfc-3f9c-423e-acc4-414536253623",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3339aefe-00d6-4c70-9f9d-0bb54b56dedb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "01f785cc-a4ad-4d3b-b104-28de4fc06a1f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c9949d56-8d58-481d-8e71-f74b9a29e61e"]
+  }],
+  "urls": [],
+  "plugins": []
+}
