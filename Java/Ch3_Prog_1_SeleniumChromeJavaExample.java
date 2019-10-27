@@ -11,7 +11,7 @@ public class Ch3_Prog_1_SeleniumChromeJavaExample{
     public static void main(String[] args) {
         // Create a new instance of the Chrome driver - Set the Properties for the Chrome Driver locations
         System.setProperty("webdriver.chrome.driver",
-                "C:\\Selenium\\chromedriver.exe");
+                "C:\\Users\\rahma\\OneDrive\\Desktop\\Selenium\\chromedriver.exe");
         WebElement element;
         WebDriver driver = new ChromeDriver();
         // And now use this to visit BPB Publication's website
