@@ -1,5 +1,5 @@
-# CrackingSeleniumInterviewCodeExamples
- Associated Code for Cracking Selenium Interview Code Examples
+# TheScienceOfSeleniumCode
+Associated Code for "The Science Of Selenium" Book's Code Examples
  
  This code sample is included in the following manner. 
  
